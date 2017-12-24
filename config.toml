@@ -1,4 +1,4 @@
-baseurl = "http://localhost/"
+baseurl = "/"
 copyright = "Copyright (c) Josh Lindsay - j000sh.com, all rights reserved."
 title = "Josh's Internet Presence"
 canonifyurls = true
