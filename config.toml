@@ -6,6 +6,9 @@ languageCode = "en-US"
 paginate = 3
 theme = "hugo-dusk"
 
+# https://gohugo.io/hosting-and-deployment/hosting-on-github/
+publishDir = "public"
+
 googleAnalytics = ""
 disqusShortname = ""
 
@@ -41,7 +44,6 @@ pygmentsCodeFences = true
   twitter = "jlindsay90"
   linkedin = "jlindsay-sf"
   email = ""
-  rss = "blahman"
 
 [params.colors]
   # hugo-dusk colors
