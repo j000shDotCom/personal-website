@@ -5,3 +5,9 @@
 	path = public
 	url = git@github.com:jlindsay90/jlindsay90.github.io.git
 	branch = master
+[submodule "themes/hugo-classic"]
+	path = themes/hugo-classic
+	url = https://github.com/goodroot/hugo-classic.git
+[submodule "themes/hugo-xmin"]
+	path = themes/hugo-xmin
+	url = https://github.com/yihui/hugo-xmin.git
