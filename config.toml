@@ -1,0 +1,52 @@
+baseurl = "http://localhost/"
+copyright = "Copyright (c) Josh Lindsay - j000sh.com, all rights reserved."
+title = "Josh's Internet Presence"
+canonifyurls = true
+languageCode = "en-US"
+paginate = 3
+theme = "hugo-dusk"
+
+googleAnalytics = ""
+disqusShortname = ""
+
+[author]
+  name = "Josh Lindsay"
+
+SectionPagesMenu = "main"
+
+# use Chroma for syntax highlight
+pygmentsStyle = "native" # other dark style options: vim, fruity, monokai
+# enable syntax highlight for code blocks
+pygmentsCodeFences = true
+
+[[menu.main]]
+  name = "Posts"
+  weight = -120
+  identifier = "post"
+  url = "/post/"
+
+[[menu.main]]
+  name = "Tags"
+  weight = -110
+  identifier = "tag"
+  url = "/tags/"
+
+[params.meta]
+  keywords = "blog, tech"
+  description = "Personal and Technical blog."
+
+[params]
+  github = "jlindsay90"
+  gitlab = "jlindsay90"
+  twitter = "jlindsay90"
+  linkedin = "jlindsay-sf"
+  email = ""
+  rss = "blahman"
+
+[params.colors]
+  # hugo-dusk colors
+  background = "#101010" # background color for the site
+  main = "#99cc66"
+  text = "#dbdbdb"
+  code-quote-bg = "#1D1F21" # background color for quotes and code blocks
+  copyright = "#404040" # copyright text color
