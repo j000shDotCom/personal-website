@@ -44,6 +44,8 @@ pygmentsCodeFences = true
   twitter = "jlindsay90"
   linkedin = "jlindsay-sf"
   email = ""
+  themeName = "Hugo Dusk"
+  themeLink = "https://themes.gohugo.io/hugo-dusk/"
 
 [params.colors]
   # hugo-dusk colors
