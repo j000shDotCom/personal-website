@@ -43,6 +43,7 @@ pygmentsCodeFences = true
   gitlab = "jlindsay90"
   twitter = "jlindsay90"
   linkedin = "jlindsay-sf"
+  bitbucket = "jlindsay90"
   email = ""
   themeName = "Hugo Dusk"
   themeLink = "https://themes.gohugo.io/hugo-dusk/"
@@ -51,6 +52,6 @@ pygmentsCodeFences = true
   # hugo-dusk colors
   background = "#101010" # background color for the site
   main = "#99cc66"
-  text = "#dbdbdb"
+  text = "#ffffff"
   code-quote-bg = "#1D1F21" # background color for quotes and code blocks
   copyright = "#404040" # copyright text color
