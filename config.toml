@@ -1,6 +1,6 @@
 baseurl = "https://j000sh.com/"
 copyright = "Copyright (c) Josh Lindsay - j000sh.com, all rights reserved."
-title = "Josh's Internet Presence"
+title = "J000SH"
 canonifyurls = true
 languageCode = "en-US"
 paginate = 3
@@ -26,7 +26,13 @@ pygmentsCodeFences = true
   name = "Posts"
   weight = -120
   identifier = "post"
-  url = "/post/"
+  url = "/posts/"
+
+[[menu.main]]
+  name = "Projects"
+  weight = -115
+  identifier = "project"
+  url = "/projects/"
 
 [[menu.main]]
   name = "Tags"
