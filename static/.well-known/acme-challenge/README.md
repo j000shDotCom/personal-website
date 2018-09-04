@@ -1,1 +1,1 @@
-sudo certbot certonly -d j000sh.com --manual
+certbot certonly -d j000sh.com --manual

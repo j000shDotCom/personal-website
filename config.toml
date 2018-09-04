@@ -1,10 +1,8 @@
 baseurl = "https://j000sh.com/"
-copyright = "Copyright (c) Josh Lindsay - j000sh.com, all rights reserved."
-title = "J000SH"
-canonifyurls = true
 languageCode = "en-US"
-paginate = 3
+title = "j000sh | Josh Lindsay"
 theme = "hugo-dusk"
+copyright = "© Josh Lindsay - j000sh.com, all rights reserved."
 
 # https://gohugo.io/hosting-and-deployment/hosting-on-github/
 publishDir = "public"
@@ -12,52 +10,21 @@ publishDir = "public"
 googleAnalytics = ""
 disqusShortname = ""
 
-[author]
-  name = "Josh Lindsay"
+enableRobotsTXT = true
+canonifyurls = true
+paginate = 5
 
-SectionPagesMenu = "main"
-
-# use Chroma for syntax highlight
-pygmentsStyle = "native" # other dark style options: vim, fruity, monokai
-# enable syntax highlight for code blocks
-pygmentsCodeFences = true
-
-[[menu.main]]
-  name = "Posts"
-  weight = -120
-  identifier = "post"
-  url = "/posts/"
-
-[[menu.main]]
-  name = "Projects"
-  weight = -115
-  identifier = "project"
-  url = "/projects/"
-
-[[menu.main]]
-  name = "Tags"
-  weight = -110
-  identifier = "tag"
-  url = "/tags/"
-
-[params.meta]
-  keywords = "blog, tech"
-  description = "Personal and Technical blog."
-
-[params]
+[params.social]
   github = "jlindsay90"
-  gitlab = "jlindsay90"
+  gitlab = "j000sh"
   twitter = "jlindsay90"
   linkedin = "jlindsay-sf"
   bitbucket = "jlindsay90"
   email = ""
-  themeName = "Hugo Dusk"
-  themeLink = "https://themes.gohugo.io/hugo-dusk/"
 
-[params.colors]
-  # hugo-dusk colors
-  background = "#101010" # background color for the site
-  main = "#99cc66"
-  text = "#ffffff"
-  code-quote-bg = "#1D1F21" # background color for quotes and code blocks
-  copyright = "#404040" # copyright text color
+[params.info]
+  adsense = "" # Adsense ID (ID only, without ca-pub-)
+  enableSocial = false # Adds OpenGraph and Twitter cards
+  homeTitle = "" # Title for home page
+  poweredby = true # Adds powered by Hugo and Kiss below Copyright section
+  related = true # Includes related articles
