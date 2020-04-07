@@ -1,13 +1,11 @@
 baseurl = "/"
 languageCode = "en-US"
 title = "Josh Lindsay"
-theme = "hugo-dusk"
+theme = "hugo-coder"
 
-disqusShortname = "shortname"
-googleAnalytics = ""
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
-Paginate = 5
+paginate = 5
 enableRobotsTXT = true
 
 [permalinks]
@@ -17,12 +15,35 @@ enableRobotsTXT = true
 [[menu.main]]
   name = "Home"
   url = "/"
-  weight = 1
 [[menu.main]]
-  name = "About"
-  url = "/about/"
-  weight = 2
+  name = "Posts"
+  url = "/posts/"
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
 
 [params]
-  description = "Personal website for Josh Lindsay"
-  footer = "&copy; [Yihui Xie](https://yihui.name) 2017 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+  author = "Josh Lindsay"
+  description = "Josh's personal website"
+  keywords = "blog,dev,developer,personal,engineer"
+  info = "Full Stack Software Engineer"
+  gravatar = "jlindsay90@gmail.com"
+  colorScheme = "dark"
+  custom_css = []
+  custom_js = []
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 1
+    url = "https://github.com/josh-dot-com/"
+[[params.social]]
+    name = "Gitlab"
+    icon = "fab fa-gitlab"
+    weight = 2
+    url = "https://gitlab.com/j000sh/"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 4
+    url = "https://www.linkedin.com/in/jlindsay-sf/"

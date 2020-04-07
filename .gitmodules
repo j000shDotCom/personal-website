@@ -13,3 +13,15 @@
 [submodule "themes/hugo-privacy-cactus-theme"]
 	path = themes/hugo-privacy-cactus-theme
 	url = git@github.com:lucaspiller/hugo-privacy-cactus-theme.git
+[submodule "themes/hugo-theme-hello-friend-ng"]
+	path = themes/hugo-theme-hello-friend-ng
+	url = git@github.com:rhazdon/hugo-theme-hello-friend-ng.git
+[submodule "themes/hermit"]
+	path = themes/hermit
+	url = https://github.com/Track3/hermit.git
+[submodule "themes/hugo-flex"]
+	path = themes/hugo-flex
+	url = https://github.com/de-souza/hugo-flex.git
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
