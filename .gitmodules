@@ -12,10 +12,10 @@
 	url = https://github.com/ribice/kiss.git
 [submodule "themes/hugo-privacy-cactus-theme"]
 	path = themes/hugo-privacy-cactus-theme
-	url = git@github.com:lucaspiller/hugo-privacy-cactus-theme.git
+	url = https://github.com/lucaspiller/hugo-privacy-cactus-theme.git
 [submodule "themes/hugo-theme-hello-friend-ng"]
 	path = themes/hugo-theme-hello-friend-ng
-	url = git@github.com:rhazdon/hugo-theme-hello-friend-ng.git
+	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng.git
 [submodule "themes/hermit"]
 	path = themes/hermit
 	url = https://github.com/Track3/hermit.git
