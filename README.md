@@ -1,4 +1,4 @@
-JLindsay
-========
+Josh Lindsay
+============
 
-Basic landing page
+Personal Website
