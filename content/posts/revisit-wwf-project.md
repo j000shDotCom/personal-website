@@ -41,7 +41,7 @@ Guess I'll get started!
 
 ### Part Three: Connect to WWF API
 
-Most of this is done [here](https://github.com/josh-dot-com/words-with-fiends)
+Most of this is done [here](https://github.com/j000shDotCom/words-with-fiends)
 
 ### Part Four: Scan Board Screenshot (Computer Vision)
 

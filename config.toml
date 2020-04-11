@@ -33,7 +33,7 @@ enableRobotsTXT = true
     name = "Github"
     icon = "fab fa-github"
     weight = 1
-    url = "https://github.com/josh-dot-com/"
+    url = "https://github.com/j000shDotCom/"
 [[params.social]]
     name = "Gitlab"
     icon = "fab fa-gitlab"
